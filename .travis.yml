@@ -19,4 +19,4 @@ deploy:
   bucket_name: "elasticbeanstalk-us-east-1-563684797122"
   bucket_path: "docker-youtube"
   on:
-    branch: master
+    branch: main
