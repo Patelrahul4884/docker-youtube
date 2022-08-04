@@ -6,7 +6,7 @@ before_install:
   - docker build -t dockeryt -f Dockerfile.dev .
 
 script: 
-  - docker run -e CI=true dockeryt npm run test
+  - docker run -e CI=true dockeryt npm run test -- --coverage
 
 deploy:
   provider: elasticbeanstalk
